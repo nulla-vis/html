@@ -1,0 +1,100 @@
+.slider h3,
+.slider h5 
+.undang h3{
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.parallax-container{
+    height: 20%; /* using [ercentage to kae it more flexible between out[ut data */
+}
+
+.parallax img{
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+/* .slider .slides li img{
+    height: 100% !important;
+    width: 100% !important;
+} */
+/* .slider .slides {
+    background-color: transparent;
+    margin: 0;
+    height: 400px;
+}
+
+.slider .slides li img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size:100% auto;
+    background-repeat: no-repeat;
+} */
+
+/* .slider li img{max-width:100%;height:auto;} */
+
+@media only screen and (max-width: 600px) {
+    .slides {
+      height: 250px !important;
+    }
+      .slider {
+           height: 250px !important;
+      }
+    
+    
+  }
+
+@media only screen and (min-width: 600px) {
+    .slides {
+      height: 600px !important;
+    }
+      .slider {
+           height: 600px !important;
+      }
+  }
+
+  .slider .slides li .caption {
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    width: 70%;
+    opacity: 0;
+  }
+
+  .slider .slides li .caption h3{
+  font-size: 300%;
+  /* padding-bottom: 20%; */
+  height: 50%;
+  opacity: 70%;
+  }
+section, footer{
+    padding: 20px 0px;
+}
+
+#undang .card-panel{
+    height: 365px;
+}
+.map iframe{
+width: 100%;
+height:470px;
+margin: 8px auto;
+}
+
+.fa-instagram {
+    background: #125688;
+    background-position: center;
+    color: white;
+    border-radius: 50px;    
+}
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  /* medsos */
+  
